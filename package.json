@@ -1,0 +1,29 @@
+{
+  "name": "ngxm",
+  "version": "1.0.0",
+  "description": "Nginx tool to create and manage local SSL domain for frontend testing",
+  "bin": {
+    "ngxm": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazerte/ngxm.git"
+  },
+  "keywords": [
+    "nginx"
+  ],
+  "author": "Mathieu Desvé",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mazerte/ngxm/issues"
+  },
+  "homepage": "https://github.com/mazerte/ngxm#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "conf": "^10.0.3"
+  }
+}
